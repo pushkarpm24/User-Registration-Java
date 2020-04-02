@@ -33,7 +33,7 @@ public class UserRegistrationTest {
 
     @Test
     public void givenPassword_validThenTrue() {
-        boolean result = user.checkPassword("pushkarM");
+        boolean result = user.checkPassword("push8karM");
         Assert.assertTrue(result);
     }
 }
