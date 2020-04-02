@@ -24,6 +24,12 @@ public class UserRegistrationTest {
         boolean result = user.checkEmailId("abc.xyz@bl.co.in");
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void givenMobileNumber_validThenTrue() {
+        boolean result = user.checkMobileNumber("91 7768076656");
+        Assert.assertTrue(result);
+    }
 }
 
 
